@@ -1,0 +1,85 @@
+/* Ensures navbar appears on top of other content */
+.my-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    /* Bootstrap default for navbar */
+}
+
+/* Default state */
+.fade-navbar {
+    background: linear-gradient(to bottom, #ffe6c9a6, #fffafa);
+    /* Orange with slight transparency */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(241, 17, 17, 0.2);
+    padding: 10px 0;
+}
+
+/* Shrinks on scroll */
+.shrink-navbar {
+    padding: 1px 0 !important;
+
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
+    transition: height 0.3s ease;
+}
+
+/* Logo scaling */
+.navbar-logo {
+    height: 80px;
+    width: auto;
+    transition: height 0.3s ease;
+}
+
+.shrink-navbar .navbar-logo {
+    height: 45px;
+}
+
+/* Dropdown shows on hover */
+.hover-dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+/* Nav structure */
+.navbar-nav {
+    gap: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Link styles */
+.nav-link {
+    font-weight: 900;
+    color: goldenrod !important;
+}
+
+/* Dropdown appearance */
+.dropdown-menu {
+    background-color: goldenrod;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown-item:hover {
+    background-color: #ffe0b2;
+    color: #000;
+}
+
+/* Social icon hover effect */
+.social-icon {
+    height: 28px;
+    width: 48px;
+    margin-right: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,44 @@
+.section-container {
+    background-color: #ffffff;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.section-title {
+    color: #000000;
+    /* Black */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #000000;
+    /* Underline */
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.section-paragraph {
+    color: #000000;
+    /* Black */
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 20px auto 40px;
+    line-height: 1.6;
+}
+
+.section-image {
+    width: 100%;
+    height: 100vh;
+    /* Full window height */
+    background-image: url('../assets/client.jpg');
+        /* background-image: url('${process.env.PUBLIC_URL}/assets/client.jpg'); */
+    /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,91 @@
+.custom-footer {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-strip {
+    background: linear-gradient(to bottom, rgb(238, 191, 71), rgba(255, 241, 161, 0.068));
+    color: #ffffff;
+    text-align: left;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-company-name {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 10px 0;
+}
+
+.footer-description {
+    font-size: 14px;
+    color: #333333;
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #28a745;
+}
+
+.footer-column.right p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #666666;
+}
